@@ -41,6 +41,9 @@
     "Application.PrimeCheck3.executor": "Run",
     "Application.PrimeCheck4.executor": "Run",
     "Application.PrimeCheck5.executor": "Run",
+    "Application.PrimeFindConcFair.executor": "Run",
+    "Application.PrimeFindConcUnfair.executor": "Run",
+    "Application.PrimeFindSimple.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -55,7 +58,7 @@
       <recent name="numbers" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PrimeFindConcFair">
     <configuration name="PrimeCheck5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="numbers.PrimeCheck5" />
       <module name="java-exploration" />
@@ -69,8 +72,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrimeFindConcFair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.PrimeFindConcFair" />
+      <module name="java-exploration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeFindConcUnfair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.PrimeFindConcUnfair" />
+      <module name="java-exploration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeFindSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.PrimeFindSimple" />
+      <module name="java-exploration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeFindConcFair" />
+        <item itemvalue="Application.PrimeFindConcUnfair" />
+        <item itemvalue="Application.PrimeFindSimple" />
         <item itemvalue="Application.PrimeCheck5" />
       </list>
     </recent_temporary>
