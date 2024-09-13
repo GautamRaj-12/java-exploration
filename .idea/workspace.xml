@@ -49,6 +49,7 @@
     &quot;Application.PrimeFindConcFair.executor&quot;: &quot;Run&quot;,
     &quot;Application.PrimeFindConcUnfair.executor&quot;: &quot;Run&quot;,
     &quot;Application.PrimeFindSimple.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SinglyLinkedList.executor&quot;: &quot;Run&quot;,
     &quot;Application.VehicleMain (1).executor&quot;: &quot;Run&quot;,
     &quot;Application.VehicleMain (2).executor&quot;: &quot;Run&quot;,
     &quot;Application.VehicleMain.executor&quot;: &quot;Run&quot;,
@@ -70,7 +71,7 @@
       <recent name="numbers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AmazonPrimeHierarchicalInheritance (1)">
+  <component name="RunManager" selected="Application.SinglyLinkedList">
     <configuration name="AmazonPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oops.AmazonPrime" />
       <module name="java-exploration" />
@@ -141,19 +142,6 @@
       <module name="java-exploration" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AmazonPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.AmazonPrime" />
-      <module name="java-exploration" />
-      <extension name="coverage">
-        <pattern>
           <option name="PATTERN" value="oops.single_inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
@@ -162,25 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.VehicleMain" />
+    <configuration name="SinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linked_list.SinglyLinkedList" />
       <module name="java-exploration" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VehicleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.VehicleMain" />
-      <module name="java-exploration" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oops.*" />
+          <option name="PATTERN" value="linked_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SinglyLinkedList" />
         <item itemvalue="Application.AmazonPrimeHierarchicalInheritance (1)" />
         <item itemvalue="Application.AmazonPrimeHierarchicalInheritance" />
         <item itemvalue="Application.AmazonPrimeMultiLevelInheritance" />
         <item itemvalue="Application.AmazonPrimeSingleInheritance" />
-        <item itemvalue="Application.AmazonPrime" />
       </list>
     </recent_temporary>
   </component>
@@ -208,5 +183,16 @@
       <updated>1724315845757</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
